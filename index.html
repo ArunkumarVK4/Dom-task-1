@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="text-center">
+        <label for="first">First name</label> <br>
+        <input type="text" name="fname" id="first"> <br>
+
+        <label for="mname">Last name</label> <br>
+        <input type="text" id="mname">  <br>
+
+        <label for="last">Last name</label> <br>
+        <input type="text" id="lname"> <br>
+
+        <label for="email">Email</label> <br>
+        <input type="email" id="email"> <br>
+
+        <label for="pass">Password</label> <br>
+        <input type="password" name="pass" id="pass"> <br> <br>
+
+        <button type="submit" onclick="foo()">submit</button>
+
+    </div>
+
+    <script>
+    
+    function foo(){
+        var fname=document.getElementById("first").value;
+        console.log(fname);
+    
+        var mname = document.getElementById("mname").value
+        console.log(mname);
+    
+        var lname = document.getElementById("lname").value;
+        console.log(lname);
+    
+        var email = document.getElementById('email').value;
+        console.log(email);
+    
+        var pass = document.getElementById("pass").value;
+        console.log(pass);
+    }
+    
+</script>
+
+
+
+    
+
+
+
+</body>
+</html>
